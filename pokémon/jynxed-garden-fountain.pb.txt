@@ -1,0 +1,35 @@
+name: "Jynxed Garden Fountian"
+card {
+  name: "Grass Energy"
+  count: 7
+  energy {
+    kind: BASIC
+    type: GRASS
+  }
+}
+card {
+  name: "Water Energy"
+  count: 6
+  energy {
+    kind: BASIC
+    type: WATER
+  }
+}
+card {
+  name: "Psychic Energy"
+  count: 7
+  energy {
+    kind: BASIC
+    type: PSYCHIC
+  }
+}
+
+card {
+  name: "Energy Retrieval"
+  count: 2
+  trainer { kind: ITEM }
+  expansion: PRIMAL_CLASH
+  number: 126
+}
+
+# Finish writing this out.

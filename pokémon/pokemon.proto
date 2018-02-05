@@ -1,0 +1,88 @@
+syntax="proto3"
+
+package ccg.pokemon;
+
+message Energy {
+  enum Type {
+    NOT_APPLICABLE = 0;
+    GRASS = 1;
+    FIRE = 2;
+    WATER = 3;
+    ELECTRIC = 4;
+    PSYCHIC = 5;
+    FIGHTING = 6;
+    COLORLESS = 7;
+    STEEL = 8;
+    DARK = 9;
+    FAIRY = 10;
+    DRAGON = 11;
+  }
+}
+
+message Card {
+  string name = 1;
+  int32 count = 2;  // The count of instances of this card in the deck.
+  
+  message Energy {
+    enum Kind {
+      BASIC = 0;
+      SPECIAL = 1;
+    }
+    Kind kind = 1;
+    Energy.Type type = 2;
+  }
+
+  message Trainer{
+    enum Kind {
+      UNSPECIFIED = 0;
+      ITEM = 1;
+      SUPPORTER = 2;
+      STADIUM = 3;
+    }
+    Kind kind = 1;
+  }
+
+  message Pokemon {
+    enum Stage {
+      BASIC = 0;
+      STAGE_1 = 1;
+      STAGE_2 = 2;
+    }
+    Stage stage = 1;
+    Energy.Type = type = 2;
+  }
+
+  oneof kind {
+    Energy energy = 3;
+    Trainer trainer = 4;
+    Pokemon pokemon = 5;
+  }
+
+  // TODO: Complete this list.
+  enum Expansion {
+    UNKNOWN_EXPANSION = 0;
+    BASE_SET = 1;
+    JUNGLE = 2;
+    FOSSIL = 3;
+    BASE_SET_2 = 4;
+    PRIMAL_CLASH = 63;
+    GENERATIONS = 68;
+    BREAKTHROUGH = 66;
+    BREAKPOINT = 67;
+    FATES_COLLIDE = 69;
+    STEAM_SIEGE = 70;
+    GUARDIANS_RISING = 73;
+    SHINING_LEGENDS = 75;
+  }
+  Expansion expansion = 6;
+  int32 number = 7;  // The number of card in the set.
+
+  repeated string note = 8;
+  // Next tag: 8
+}
+
+message Deck {
+  string name = 1;
+  repeated Card card = 2;
+  repeated string note = 3;
+}
