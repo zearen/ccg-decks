@@ -31,5 +31,236 @@ card {
   expansion: PRIMAL_CLASH
   number: 126
 }
+card {
+  name: "Professor's Letter"
+  count: 2
+  trainer { kind: ITEM }
+  expansion: BREAKTHROUGH
+  number: 146
+}
+card {
+  name: "Evosoda"
+  count: 1
+  trainer { kind: ITEM }
+  expansion: GENERATIONS
+  number: 62
+}
+card {
+  name: "Great Ball"
+  count: 2
+  trainer { kind: ITEM }
+  expansion: SHINING_LEGENDS
+  number: 60
+}
+card {
+  name: "Ultra Ball"
+  count: 2
+  trainer { kind: ITEM }
+  expansion: SHINING_LEGENDS
+  number: 68
+}
+card {
+  name: "Shauna"
+  count: 1
+  trainer { kind: SUPPORTER }
+  expansion: FATES_COLLIDE
+  number: 111
+}
+card {
+  name: "Pokémon Center Lady"
+  count: 1
+  trainer { kind: SUPPORTER }
+  expansion: GENERATIONS
+  number: 68
+}
 
-# Finish writing this out.
+card {
+  name: "Shroomish"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: GRASS
+  }
+  expansion: SHINING_LEGENDS
+  number: 4
+}
+card {
+  name: "Breloom"
+  count: 1
+  pokemon {
+    stage: STAGE_1
+    type: GRASS
+  }
+  expansion: SHINING_LEGENDS
+  number: 5
+}
+card {
+  name: "Virizion"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: GRASS
+  }
+  expansion: SHINING_LEGENDS
+  number: 8
+}
+card {
+  name: "Suicine"
+  count: 1
+  pokemon {
+    stage: BASIC
+    type: WATER
+  }
+  expansion: BREAKPOINT
+  number: 30
+}
+card {
+  name: "Totodile"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: WATER
+  }
+  expansion: SHINING_LEGENDS
+  number: 18
+}
+card {
+  name: "Croconaw"
+  count: 2
+  pokemon {
+    stage: STAGE_1
+    type: WATER
+  }
+  expansion: SHINING_LEGENDS
+  number: 19
+}
+card {
+  name: "Feraligatr"
+  count: 1
+  pokemon {
+    stage: STAGE_2
+    type: WATER
+  }
+  expansion: SHINING_LEGENDS
+  number: 20
+}
+card {
+  name: "Manaphy"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: WATER
+  }
+  expansion: SHINING_LEGENDS
+  number: 25
+}
+card {
+  name: "Shining Volcanion"
+  count: 1
+  pokemon {
+    stage: BASIC
+    type: WATER
+  }
+  expansion: SHINING_LEGENDS
+  number: 27
+}
+card {
+  name: "Ekans"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 36
+}
+card {
+  name: "Arbok"
+  count: 1
+  pokemon {
+    stage: STAGE_1
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 37
+}
+card {
+  name: "Jynx"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 38
+}
+card {
+  name: "Shining Mew"
+  count: 1
+  pokemon {
+    stage: BASIC
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 40
+}
+card {
+  name: "Latios"
+  count: 1
+  pokemon {
+    stage: BASIC
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 41
+}
+card {
+  name: "Golett"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 43
+}
+card {
+  name: "Golurk"
+  count: 1
+  pokemon {
+    stage: STAGE_1
+    type: PSYCHIC
+  }
+  expansion: SHINING_LEGENDS
+  number: 44
+}
+card {
+  name: "Drampa GX"
+  count: 1
+  pokemon {
+    stage: BASIC
+    type: COLORLESS
+  }
+  expansion: GUARDIANS_RISING
+  number: 115
+}
+card {
+  name: "Meowth"
+  count: 2
+  pokemon {
+    stage: BASIC
+    type: COLORLESS
+  }
+  expansion: STEAM_SIEGE
+  number: 88
+}
+card {
+  name: "Persian"
+  count: 2
+  pokemon {
+    stage: STAGE_1
+    type: COLORLESS
+  }
+  expansion: STEAM_SIEGE
+  number: 88
+}
